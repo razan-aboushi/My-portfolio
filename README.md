@@ -13,7 +13,7 @@
 
 ### And this is the link to the GitHub repository, where you can see the code for the portfolio [My-portfolio](https://github.com/razan-aboushi/My-portfolio).
 
-### If you want to see my portfolio [My Portfolio](https://razan-aboushi.github.io/My-portfolio/).
+* If you want to see my portfolio [My Portfolio](https://razan-aboushi.github.io/My-portfolio/).
 
 
 ### I used the following tools to complete this work:
