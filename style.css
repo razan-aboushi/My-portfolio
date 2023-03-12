@@ -1052,7 +1052,7 @@ h6 {
 
 .job-text:before {
 
-  content: "Web Developer";
+  content: "";
   animation: animate infinite 8s;
   animation-delay: 4s;
   padding-left: 40px;
@@ -1076,12 +1076,8 @@ h6 {
     content: "Front-Back End";
   }
 
-  25% {
-    content: "Management";
-  }
-
   50% {
-    content: "QA and QC";
+    content: "Management";
   }
 
   75% {
