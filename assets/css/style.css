@@ -12,7 +12,7 @@ a:hover {
   text-decoration: none;
 }
 
-
+/* Style of the circle in the right side */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -42,6 +42,9 @@ a:hover {
   visibility: visible;
   opacity: 1;
 }
+
+/* end of style the circle */
+
 
 #header {
   position: fixed;
@@ -240,8 +243,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px)
- {
+@media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -283,25 +285,12 @@ main>section {
   left: 0;
 }
 
-p,
-li,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+p,li,.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
   line-height: 1.7em;
 }
 
 /*--------------------------------------------------------------
-# About
+# About style section
 --------------------------------------------------------------*/
 .about .content h3 {
   font-size: 26px;
@@ -376,7 +365,7 @@ h6 {
 .myskills ol li {
   font-size: 20px;
   margin: 10pxs;
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -556,7 +545,7 @@ h6 {
 .text1 span {
   position: relative;
   top: 170px;
-  right:85px;
+  right: 85px;
   color: #484848;
   font-size: 50px;
   font-weight: bold;
@@ -565,25 +554,25 @@ h6 {
   cursor: pointer;
 }
 
- h1 span {
+h1 span {
   transition: .5s linear;
 }
 
- h1:hover span:nth-child(1) {
+h1:hover span:nth-child(1) {
   margin-right: 5px;
 }
 
- h1:hover span:nth-child(1):after {
+h1:hover span:nth-child(1):after {
   content: "'";
 }
 
- h1:hover span:nth-child(2) {
+h1:hover span:nth-child(2) {
   margin-left: 30px
 }
 
- h1:hover span {
+h1:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff,0 0 20px #fff, 0 0 40px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
 
 /* The end of transition style  */
@@ -593,7 +582,7 @@ h6 {
 /* Media query for displaying the animation on mobile device */
 
 @media (max-width: 767px) {
-  .job-text:before {  
+  .job-text:before {
     font-size: 25px;
     right: 15px;
   }
