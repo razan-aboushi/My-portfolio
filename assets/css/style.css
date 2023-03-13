@@ -232,13 +232,16 @@ a:hover {
   border-bottom: 3px solid #149ddd;
 }
 
+
+/* Media query on hero section */
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)
+ {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -331,57 +334,9 @@ h6 {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts {
-  padding-bottom: 30px;
-}
-
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-
-.facts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
-  line-height: 0;
-}
-
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-size: 14px;
-  color: #122f57;
-}
-
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  transition: ease-in-out 0.3s;
-}
-
-.facts .count-box a:hover {
-  color: #1f5297;
-}
 
 /*--------------------------------------------------------------
-# Akills
+# A kills section
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -417,7 +372,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Resume or education and experience section now
 --------------------------------------------------------------*/
 .resume .resume-title {
   font-size: 26px;
@@ -646,58 +601,7 @@ h6 {
 
 
 
-.services .icon-box {
-  margin-bottom: 20px;
-}
-
-.services .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-}
-
-.services .icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #149ddd;
-}
-
-.services .title {
-  margin-left: 80px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.services .title a {
-  color: #343a40;
-}
-
-.services .title a:hover {
-  color: #149ddd;
-}
-
-.services .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
-}
-
+/* Contact section style */
 
 
 .contact {
@@ -883,7 +787,7 @@ h6 {
 
 
 /*--------------------------------------------------------------
-# Footer
+# Footer part CSS style
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
@@ -916,6 +820,7 @@ h6 {
   }
 }
 
+/* Here is a style for animation on the hero section */
 
 .job-text:before {
 
@@ -1026,7 +931,7 @@ h6 {
   
 }
 
-
+/* Media query for displaying the animation on mobile device */
 
 @media (max-width: 767px) {
   .job-text:before {  
