@@ -1054,6 +1054,7 @@ h6 {
   }
 }
 
+
 .job-text:before {
 
   content: "Web Developer";
@@ -1157,13 +1158,21 @@ h6 {
 }
 
 
-
-
-
-
 .myskills ol li {
-
   font-size: 20px;
   margin: 10pxs;
   
+}
+
+
+@media (max-width: 767px) {
+  .job-text:before {  
+    font-size: 25px;
+    right: 15px;
+  }
+
+  .text1 span {
+    right: 15px;
+    font-size: 25px;
+  }
 }
