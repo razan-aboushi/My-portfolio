@@ -109,6 +109,10 @@ a:hover {
     left: -300px;
   }
 
+  .mobile-nav-active header {
+    left: 0 !important;
+  }
+
   #main {
     margin-left: 0;
   }
@@ -1071,9 +1075,8 @@ h6 {
 }
 
 @keyframes animate {
-
   0% {
-    content: "Front-Back End";
+    content: "Fullstack developer";
   }
 
   25% {
@@ -1081,25 +1084,13 @@ h6 {
   }
 
   50% {
-    content: "QA and QC";
+    content: "Freelancer";
   }
 
   75% {
-    content: "UX|UI Designer";
-  }
-
-  100% {
-    content: "Freelancer";
-    font-weight: 100;
+    content: "UX/UI Designer";
   }
 }
-
-
-
-
-
-
-
 
 .courses ol li a {
   color: #040b14;
