@@ -12,7 +12,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* Style of the circle in the right side to back from bottom to top */
+/* Style of the circle in the right side */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -46,9 +46,6 @@ a:hover {
 /* end of style the circle */
 
 
-
-
-/* Style of header section */
 #header {
   position: fixed;
   top: 0;
@@ -195,7 +192,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/home.jpg") top center;
+  background: url("home.jpg") top center;
   background-size: cover;
 }
 
@@ -240,15 +237,13 @@ a:hover {
 
 
 /* Media query on hero section */
-@media (min-width: 1024px) 
-{
+@media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 768px) 
-{
+@media (max-width: 768px) {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -590,14 +585,8 @@ h1:hover span {
   .job-text:before {
     font-size: 25px;
     right: 15px;
-   
   }
 
-
-  /* Image for mobile nav */
-  #hero{
-    background-image: url("/assets/img/HomeM.jpg");
-  }
   .text1 span {
     right: 15px;
     font-size: 25px;
