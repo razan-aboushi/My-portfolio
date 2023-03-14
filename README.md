@@ -11,9 +11,6 @@
 ### Here is a link for mockup [Mockup](https://www.figma.com/file/ygCxeozo6oMfATVnemsCln/Untitled?node-id=0%3A1&t=uf8JQNVcoRfJQP0V-0) .
 
 
-### And this is the link to the GitHub repository, where you can see the code for the portfolio [My-portfolio](https://github.com/razan-aboushi/My-portfolio).
-
-
 ### If you want to see my portfolio [My Portfolio](https://razan-aboushi.github.io/My-portfolio/).
 
 

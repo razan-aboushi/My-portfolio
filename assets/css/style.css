@@ -46,6 +46,9 @@ a:hover {
 /* end of style the circle */
 
 
+
+
+/* Style of header section */
 #header {
   position: fixed;
   top: 0;
@@ -237,13 +240,15 @@ a:hover {
 
 
 /* Media query on hero section */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) 
+{
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
